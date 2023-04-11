@@ -1,4 +1,4 @@
-index_mapping:
+indices:
   ^GSPC: List of S&P 500 companies
   ^IXIC: NASDAQ-100
   ^DJI: Dow Jones Industrial Average

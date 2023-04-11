@@ -12,7 +12,7 @@ def load_config():
         return yaml.safe_load(f)
 
 CONFIG = load_config()
-INDEX_NAME_MAP = CONFIG['index_mapping']
+INDEX_NAME_MAP = CONFIG['indices']
 
 def get_wikipedia_page_url(index_name):
     wiki_wiki = wikipediaapi.Wikipedia('en')

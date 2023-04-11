@@ -41,6 +41,33 @@ pip install -r requirements.txt
 
 4. Configure the index mappings in the `config.yaml` file.
 
+## Configuration
+
+DividendFetcher allows you to configure the index mappings using a `config.yaml` file. This file contains a dictionary that maps index ticker symbols to their respective Wikipedia URLs.
+
+Here's an example of the `config.yaml` file structure:
+
+```yaml
+indices:
+  ^GSPC: List of S&P 500 companies
+  ^IXIC: NASDAQ-100
+  ^DJI: Dow Jones Industrial Average
+  ^FTSE: FTSE 100 Index
+  ^GDAXI: DAX
+  ^FCHI: CAC 40
+  ^STOXX50E: EURO STOXX 50
+  ^IBEX: IBEX 35
+  ^AEX: AEX index
+```
+
+To add more index mappings, simply add a new entry in the `indices` dictionary with the format:
+
+```yaml
+INDEX_TICKER: WIKIPEDIA_PAGE_TITLE
+```
+
+where INDEX_TICKER is the index ticker symbol (e.g., ^GSPC, ^IXIC) and WIKIPEDIA_PAGE_TITLE is the title of the Wikipedia page containing the list of stock symbols for that index.
+
 ## Usage
 
 ```bash
