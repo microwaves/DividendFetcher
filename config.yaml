@@ -1,0 +1,10 @@
+index_mapping:
+  ^GSPC: List of S&P 500 companies
+  ^IXIC: NASDAQ-100
+  ^DJI: Dow Jones Industrial Average
+  ^FTSE: FTSE 100 Index
+  ^GDAXI: DAX
+  ^FCHI: CAC 40
+  ^STOXX50E: EURO STOXX 50
+  ^IBEX: IBEX 35
+  ^AEX: AEX index
